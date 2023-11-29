@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
-use App\Http\Livewire\Auth;
+use App\Livewire\Auth;
 use Livewire\Component;
 
 class Logout extends Component
@@ -12,6 +12,7 @@ class Logout extends Component
         auth()->logout();
         return redirect('/login');
     }
+    
     public function render()
     {
         return view('livewire.logout');

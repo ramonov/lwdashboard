@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
-use Illuminate\Http\Request;
+use Illuminate\Request;
 use Illuminate\Support\Facades\Password;
 use Livewire\Component;
 use App\Models\User;
